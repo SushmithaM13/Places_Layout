@@ -1,0 +1,141 @@
+#container{
+width: 1250px;
+height: 940.63px;
+}
+#container > .section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section1 > h2{
+    width: 269.54px;
+height: 45px;
+left: 15px;
+font-family: Inter;
+font-size: 29.41px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+font-family: sans-serif;
+color: #05073C;
+}
+.section1 > .see{
+width: 44.79px;
+height: 28.13px;
+font-family: Inter;
+font-size: 14.3px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,388.31px);  
+    gap: 20px 10px;
+    padding: 10px;
+    margin-top: -3px;
+}
+.parent > div{
+    width: 300px;
+height: 390px;
+border-radius: 12px;
+border: 1px solid #E7E6E6
+}
+.child > img{
+    width: 270px;
+height: 190px;
+padding: 10px;
+}
+.child >.place{
+    width: 75.92px;
+    height: 24px;
+font-family: Inter;
+font-size: 12.29px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: #717171;
+margin: -3px 35px;
+}
+.child > .place1{
+    width: 85.68px;
+height: 24.38px;
+font-family: Inter;
+font-size: 11.98px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+color: #717171;
+margin: -3px 35px;
+}
+.child >h3{
+width: 252.48px;
+height: 45px;
+font-family: Inter;
+font-size: 15.63px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+padding: 10px 5px;
+margin-top: 5px;
+}
+.child > .lasttesxt{
+width: 251.03px;
+height: 48px;
+font-family: Inter;
+font-size: 15.5px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+padding: 10px 5px;
+
+}
+.rating{
+width: 55px;
+height: 15px;
+font-family: Inter;
+font-size: 12.49px;
+font-weight: 400;
+line-height: 10px;
+margin: -2px 100px;
+}
+.child > .bottomdiv{
+width: 258px;
+height: 41px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;
+}
+.bottomdiv{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.bottomdiv > p{
+width: 60.77px;
+height: 24.38px;
+}
+.bottomdiv > .cost{
+    width: 90.44px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
+.cost>p:nth-child(2){
+    font-weight: bold;
+}
+.bottomdiv > .cost1{
+    width: 71.95px;
+height: 30px;
+padding: 4px 0px 5px 0px;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
+.cost1>p:nth-child(2){
+    font-weight: bold;
+}
